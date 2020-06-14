@@ -160,7 +160,7 @@ footer .footericon {
     /* use z-index to adjust the position of the bg-image */
     picture .bg-image {
         margin-top: 160px;
-        margin-left: -80px;
+        margin-left: -100px;
         width: 140%;
         max-width: 140%;
         z-index: -1;
