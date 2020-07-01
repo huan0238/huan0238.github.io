@@ -178,7 +178,7 @@ h3 {
         transform: scale(1.1,1.1);
     }
 }
-main #greenbutton:hover {
+main #allbuttons:hover {
     animation: greenbutton 0.5s;
 }
 
