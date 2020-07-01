@@ -1,0 +1,722 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,600;1,700&display=swap');
+body{
+    color: #3C3B3A;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.3rem;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+/* use flex box to change de layout of header */
+header {
+    background-color: #3C3B3A;
+    display: flex;
+    flex-direction: column;
+}
+
+header .aclogo {
+    max-width: 8rem;
+    align-self: center;
+}
+
+header nav { 
+    align-self: center;
+    margin: auto;
+}
+
+header nav ul {
+    padding: 0;
+}
+
+header nav ul li {
+    padding: 0.5rem;
+    list-style: none;
+    text-align: center;
+}
+
+/* add hover on navgation and change the font color of navgation */
+nav ul li a:link,
+nav ul li a:visited {
+	text-decoration: none;
+	color: #F2F2F2;
+}
+
+nav ul li a:hover,
+nav ul li a:active {
+	text-decoration: none;
+    color:#5DA9E9;
+    transition: 0.5s;
+}
+   
+.home .section-1 {
+    margin: 2rem;
+}
+
+main h1 {
+    font-size: 3rem;
+}
+/* use css grid to change the layout of the icons in section one */
+.home .section-1 .sportsicons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}    
+
+.home .section-1 .sportsicons figure figcaption {
+    color: #26A682;
+    font-size: 0.5rem;
+}
+.home .section-1 .sportsicons picture img {
+    width: 40%;
+    
+}
+
+.home .section-1 .button {
+    text-align: center;
+}
+
+.home .section-1 div button {
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #F2F2F2;
+    background-color: #26A682;
+    text-align: center;
+    padding: 0.3rem 3rem 0.3rem 3rem;
+    margin: 2rem;
+    max-width: 70%;
+    border: 0;
+    border-radius: 3rem;
+    box-shadow: 8px 8px 5px grey;
+}
+
+main .section-1 .mainpic {
+    max-width: 100%;
+}
+
+h3 {
+    font-weight: normal;
+    color: #26A682;
+}
+
+.home .scroll {
+    display: none;
+}
+
+.home .section-2 article {
+    margin: 0 2rem;
+}
+
+.home .section-2 picture img{
+    width: 100%;
+}
+
+.home .section-2 article .button {
+    text-align: right;
+}
+
+.home .section-2 div button {
+    font-size: 1.2rem;
+    font-weight: bolder;
+    color: #F2F2F2;
+    background-color: #26A682;
+    text-align: center;
+    border: 0;
+    border-radius: 2rem;
+    box-shadow: 8px 8px 4px grey;
+    max-width: 50rem;
+    padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
+}
+
+.home .section-3 {
+    color: #F2F2F2;
+    background-color: #3C3B3A;
+    padding: 2rem;
+}
+
+.section-3 figure {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.home .section-3 picture img{
+    border-radius: 50rem;
+    border: 1rem solid #F2F2F2;
+    width: 80%;
+}
+
+.home .section-4 article{
+    margin: 2rem;
+}
+.home .section-4 picture img {
+    width: 100%;
+}
+
+.home .section-4 .button {
+    text-align: right;
+}
+
+.home .section-4 button {
+    font-size: 1.2rem;
+    font-weight: bolder;
+    color: #F2F2F2;
+    background-color: #26A682;
+    text-align: center;
+    border: 0;
+    border-radius: 2rem;
+    box-shadow: 8px 8px 4px grey;
+    max-width: 50rem;
+    padding: 0.5rem 1rem;
+    margin: 2rem;
+}
+
+/* add animation on all  buttons */
+@keyframes greenbutton {
+    50%{
+        transform: scale(1.1,1.1);
+    }
+}
+main #greenbutton:hover {
+    animation: greenbutton 0.5s;
+}
+
+/* about page */
+.about .section-1 {
+    margin: 2rem;
+}
+/* use position add text to the "about-picture" */
+.about .section-2 .aboutpic img{
+    position: relative;
+    width: 100%;
+}
+
+.about .section-2 article{
+    margin: 2rem;
+    max-width: 85%;
+}
+
+.about .section-2 article div {
+    margin: 2rem;
+}
+
+.about .services div {
+    margin: 2rem;
+}
+
+.about .services .servicespic img {
+    width: 100%;
+}
+
+/* Do not display picture in mobileview */
+.about .services div picture img {
+    display: none;
+}
+
+.about .subscribe {
+    color: #F2F2F2;
+    background-color: #3C3B3A;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.about .subscribe button {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: #F2F2F2;
+    background-color: #26A682;
+    text-align: center;
+    padding: 0.3rem 3rem 0.3rem 3rem;
+    margin: auto;
+    max-width: 70%;
+    border: 0;
+    border-radius: 3rem;
+}
+
+.about .section-4 {
+    margin: 2rem;
+}
+
+.about article {
+    width: 100%;
+}
+
+/* Do not display picture in mobile view */
+.about .section-4 img{
+    display: none;
+}
+
+.about .section-5 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.about .section-5 .specialicons {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4,1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+.about .section-5 img {
+    max-width: 25%;
+    margin: 2rem;
+}
+
+/* contact page*/
+/* style the contact form */
+.contact .section-1,
+.contact .section-2 article {
+    margin: 2rem;
+}
+
+.contact .section-1 form fieldset {
+    color: #F2F2F2;
+    background-color: #26A682;
+    border: 0;
+    border-radius: 1.5rem;
+    box-shadow: 8px 8px 4px grey;
+    margin: auto;
+}
+
+.contact .section-1 form fieldset h1 {
+    padding-left: 0;
+    margin: 0;
+}
+
+.contact .section-1 form fieldset h3{
+    padding: 0.5rem 0;
+    font-size: 1rem;
+    color: #F2F2F2;
+    margin: 0rem;
+}
+
+
+.contact .section-1 form fieldset input {
+    width: 95%;
+    margin: auto;
+    padding: 0.5rem;
+    border: 0;
+    border-radius: 1rem;
+} 
+
+.contact .section-1 form fieldset #message {
+    padding-bottom: 8rem;
+    border-radius: 1rem;
+}
+
+.contact form fieldset button {
+    font-size: 1.5rem;
+    color: #F2F2F2;
+    background-color: #3C3B3A;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    border: 0;
+    border-radius: 2rem;
+    width: 95%;
+}
+
+.contact .map iframe {
+    border: 0;
+    border-collapse: collapse;
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+    color: #F2F2F2;
+    font-weight: lighter;
+    background-color: #3C3B3A;
+    position: relative;
+    padding: 1rem;
+}
+
+footer div {
+    text-align: center;
+}
+
+footer div h2 {
+    font-weight: normal;
+    margin: 0;
+}
+
+footer div img {
+    margin: 0.5rem;
+}
+/* Add animation to the Footer's SocialMedia icons */
+@keyframes footimg {
+    50% {
+        transform: scale(1.5,1.5);
+    }
+}
+
+footer div img:hover {
+    animation: footimg 0.5s;
+}
+/* use position to change the position of the "Back to top" button */
+.backtotop {
+    position: absolute;
+    right: 0.3rem;
+    top: 0.5rem;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.backtotop img {
+    width: 30%;
+}
+
+.backtotop p a:link,
+.backtotop p a:visited {
+	text-decoration: none;
+	color: #F2F2F2;
+}
+
+.backtotop p a:hover,
+.backtotop p a:active {
+	text-decoration: none;
+    color:#5DA9E9;
+    transition: 0.3s;
+}
+
+
+/* tablet view */
+@media (min-width: 768px) {
+/* use flexbox change the layout of header from columns to rows */
+    header {
+        display: flex;
+        flex-direction: row;
+    }
+
+    header nav {
+        margin-right: 4rem;
+    }
+
+    header nav ul {
+        display :flex;
+    }
+
+    header nav ul li {
+        padding: 0 1rem 0 1rem;
+        font-size: 1rem;
+    }
+
+    header .aclogo {
+        max-width: 4rem;
+        margin: 0 0 0 3rem;
+        padding: 0;
+    }
+
+    .home p {
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+        margin: 0;
+    }
+
+    .home .section-1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .home .section-1 .sportsicons {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .home .scroll {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    
+    .home .scroll img {
+        max-width: 2%;
+    }
+    
+    .home .scroll a:link,
+    .home .scroll a:visited {
+        text-decoration: none;
+        color: #3C3B3A;
+    }
+    .home .scroll a:hover,
+    .home .scroll a:active {
+        text-decoration: none;
+        color:#F2F2F2;
+        transition: 0.3s;
+    }
+    
+
+    .home .section-2 div {
+        margin: 3rem;
+    }
+
+    .home .section-3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .home .section-3 picture img {
+        max-width: 50%;
+        margin: 0;
+    }
+
+    .home .section-3 article {
+        align-self: center;
+        padding: 1rem;
+    }
+
+    .section-3 article p {
+        line-height: 2.5rem;
+    }
+   
+    /* about page(tablet view) */
+    .about .subscribe {
+        display: flex;
+        padding: 1.5rem;
+    }
+
+    .subscribe p {
+        align-self: center;
+    }
+    /* use css-grid to change the layout of about page */
+    .services .bar {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-gap: 1rem;
+    }
+
+    .services .bowling {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-gap: 1rem;
+
+    }
+
+    .services article h2 {
+        margin-top: 0;
+        font-size: 3rem;
+    }
+
+    .services article p {
+        line-height: 2.5rem;
+    }
+    /* Show the hidden images in the Mobieview */
+    .about .services div picture img {
+        display: unset;
+        width: 100%;
+    }
+
+    .section-4 .fitness {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-gap: 1rem;
+    }
+
+    .section-4 .climbing {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-gap: 1rem;
+
+    }
+
+    .about .section-4 article h2 {
+        margin-top: 0;
+        font-size: 3rem;
+    }
+
+    .section-4 article p {
+        line-height: 2.5rem;
+    }
+    .about .section-4 img {
+        display: unset;
+        width: 100%;
+    }
+
+    /* contact page(tablet view) */
+    .contact form fieldset input {
+        width: 100%;
+    }
+    
+    .contact form fieldset .contactbutton {
+        text-align: right;
+    }
+    
+    .contact form fieldset button {
+        width: 40%;
+    }
+}
+
+/* desktop view */
+@media (min-width: 1024px) {
+    /* use gird to change layout of the homepage (from column to row)*/
+    .home .section-1 {
+        display: flex;
+        flex-direction: row;
+        margin: 4rem;
+    }
+
+    /* change the layout of home page */
+    .home .section-1 .sportsicons figure{
+        margin-left: 0;
+    }
+    .home .section-1 .button {
+        text-align: left;
+    }
+
+    .home .section-1 .button button {
+        font-size: 2rem;
+    }
+
+    .home .section-1 img {
+        max-width: 55%;
+    }
+    .home .section-2 {
+        margin: 4rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .home .section-3 {
+        padding: 0;
+    }
+
+    .home .section-3 figure {
+        display: flex;
+        align-items: center;
+    }
+
+    .home .section-3 article {
+        align-self: center;
+    }
+
+    .home .section-4 {
+        display: flex;
+        flex-direction: row-reverse;
+        margin: 4rem;
+        justify-content: space-between;
+    }
+
+    .home .section-4 picture {
+        flex-basis: 48%;
+    }
+
+    .home .section-4 div {
+        flex-basis: 48%;
+    }
+
+    .home .section-4 article, h2{
+        margin: 0;
+    }
+
+    .home .section-4 button {
+        margin: 0;
+    }
+
+    /* change the layout of about page(desktopview)  */
+    .about .section-1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 4rem;
+    }
+
+    .about .section-1 h1 {
+        margin-top: 0;
+    }
+
+    .about .section-2 article {
+        display: grid;
+        margin: 4rem;
+        grid-template-columns: repeat(3,1fr);
+        
+}
+
+    .about .section-2 article p {
+        font-size: 1rem;
+        margin: 0;
+    }
+
+    .about .bar {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .about .bowling {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+
+    .about .services article h2,
+    .about .section-4 article h2 {
+        font-size: 1.5rem;
+    }
+
+
+    .about .services article,
+    .about .section-4 article{
+        font-size: 1rem;
+        margin: 0;
+    } 
+    
+    
+    .about .section-4 {
+        margin: 4rem;
+    }
+
+    .about .fitness {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .about .climbing {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .about .section-5 .specialicons {
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: 1fr;
+        justify-items: center;
+        align-items: center;
+    }
+
+    /* change the layout of contact page(desktopview) */
+    .contact .section-1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 4rem;
+    }
+
+    .contact .section-1 .contactone {
+        width: 70%;
+    }
+
+    .contact .section-1 .contactone article h1,p {
+        margin: 0 auto;
+    }
+   
+    .contact .section-2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 4rem;
+        
+    }
+
+    .contact .section-2 article {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .contact .section-2 article h2 {
+        margin-top: 0;
+    }
+}
