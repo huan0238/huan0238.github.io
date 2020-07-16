@@ -187,10 +187,16 @@ main section .greenbutton:hover {
 .about .section-1 {
     margin: 2rem;
 }
-/* use position add text to the "about-picture" */
-.about .section-2 .aboutpic img{
-    position: relative;
-    width: 100%;
+
+.about .section-2 .aboutpic {
+    font-weight: bold;
+    line-height: 10rem;
+    text-align: center;
+    color: white;
+    background: #26A682 url("/images/about.jpg") no-repeat center center;
+    background-size: cover;
+    background-blend-mode: multiply;
+    height: 10rem;
 }
 
 .about .section-2 article{
@@ -202,12 +208,20 @@ main section .greenbutton:hover {
     margin: 2rem;
 }
 
-.about .services div {
-    margin: 2rem;
+.about .services .servicespic {
+    font-weight: bold;
+    line-height: 10rem;
+    text-align: center;
+    color: white;
+    background: #26A682 url("/images/services.jpg") no-repeat center center;
+    background-size: cover;
+    background-blend-mode: multiply;
+    height: 10rem;
+    
 }
 
-.about .services .servicespic img {
-    width: 100%;
+.about .services .wrapper {
+    margin: 2rem;
 }
 
 /* Do not display picture in mobileview */
