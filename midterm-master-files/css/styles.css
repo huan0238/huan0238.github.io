@@ -193,7 +193,7 @@ main section .greenbutton:hover {
     line-height: 10rem;
     text-align: center;
     color: white;
-    background: #26A682 url("/images/about.jpg") no-repeat center center;
+    background: #26A682 url("../images/about.jpg") no-repeat center center;
     background-size: cover;
     background-blend-mode: multiply;
     height: 10rem;
@@ -213,7 +213,7 @@ main section .greenbutton:hover {
     line-height: 10rem;
     text-align: center;
     color: white;
-    background: #26A682 url("/images/services.jpg") no-repeat center center;
+    background: #26A682 url("../images/services.jpg") no-repeat center center;
     background-size: cover;
     background-blend-mode: multiply;
     height: 10rem;
