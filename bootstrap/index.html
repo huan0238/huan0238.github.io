@@ -7,13 +7,12 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
     <title>Bootstrap this!</title>
   </head>
   <body>
     <header>
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-          <a href="index.html" class="navbar-brand">DEISGNER</a>
+          <a href="index.html" class="navbar-brand">BOOTSTRAP</a>
           <img src="icons/search.svg" alt="search" class="img-fluid d-md-none mr-auto">
           <form class="form-inline my-2 my-lg-0 d-none d-md-block">
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
@@ -25,7 +24,7 @@
           <div id="navbarnav" class="collapse navbar-collapse">
             <div class="navbar-nav ml-auto">
               <a href="#" class="nav-link">Home</a>
-              <a href="#" class="nav-link">about</a>
+              <a href="#" class="nav-link">About</a>
               <a href="#" class="nav-link">Contact</a>
             </div>
           </div>
@@ -35,16 +34,26 @@
     <main>
       <section class="container">
           <div class="row">
-            <div class="col-12">
-              <figure class="figure">
-                <img src="images/1.jpg" class="figure-img img-fluid" alt="...">
-              </figure>
+            <div id="carouselExampleSlidesOnly" class="carousel slide col-12" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/3.jpg" class="d-block w-100" alt="...">
+                </div>
+              </div>
             </div>
+            <p class="h6">Carousels has a very good component. Especially in the title of the layout Homepage. We can use col-12 to fill the whole page.</p>
+          </div>
           <div class="row">
             <div class="col-md-6 col-lg-3">
               <figure class="figure">
                 <img src="images/2.jpg" class="figure-img img-fluid" alt="...">
-                <figcaption class="figure-caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</figcaption>
+                <figcaption class="figure-caption">Figure With bootstrap Grid system can achieve a lot of responsive layout.</figcaption>
               </figure>
             </div>
             <div class="col-md-6 col-lg-3">
@@ -68,7 +77,7 @@
       </section>
       <section class="container-fluid">
         <div class="row">
-          <h1 class="col-12 text-center text-white bg-primary">DESIGNER</h1>
+          <h4 class="col-12 text-center text-white bg-primary">Card is a very convenient component that helps us quickly build a card with buttons inside. With grid System, we can create many layouts.</h4>
         </div>
       
         <div class="row m-1">
