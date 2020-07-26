@@ -1,0 +1,45 @@
+header .navbar {
+    background-color: #14213D;
+}
+
+.home .container-fluid .row img {
+	position: relative;
+}
+
+.home .container-fluid .row h1 {
+    color: #FCA311;
+    position: absolute;
+    top: 11rem;
+    bottom: 5rem;
+}
+.home .container-fluid .row .form-inline{
+	position: absolute;
+	top: 14rem;
+}
+
+.home .container-fluid .row .form-inline .btn {
+    color: white;
+    background-color: #FCA311;
+}
+
+.protfolio .container .row .article {
+    background-color: #FCA311;
+}
+.protfolio .container .row .card .btn {
+    background-color: #FCA311;
+    color: white;
+}
+
+.contact .contact-form {
+    background-color: #14213D;
+}
+
+.contact form .btn {
+    color: white;
+    background-color: #FCA311;
+}
+
+body .footer {
+    background-color: #14213D;
+}
+
