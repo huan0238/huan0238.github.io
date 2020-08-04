@@ -43,3 +43,6 @@ body .footer {
     background-color: #14213D;
 }
 
+.footer .footer-icon {
+    width: 12rem;
+}
