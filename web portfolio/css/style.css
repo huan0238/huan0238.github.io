@@ -2,24 +2,33 @@ header .navbar {
     background-color: #14213D;
 }
 
-.home .container-fluid .row img {
-	position: relative;
+.home .section-1 {
+    background: url("../images/background.jpg") no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.home .container-fluid .row h1 {
+.home .section-1 .h1 {
     color: #FCA311;
-    position: absolute;
-    top: 11rem;
-    bottom: 5rem;
+    
 }
-.home .container-fluid .row .form-inline{
-	position: absolute;
-	top: 14rem;
-}
+ 
 
-.home .container-fluid .row .form-inline .btn {
+.home .section-1 .search-bar {
+    width: 50%
+
+    
+}
+.home .section-1 .search-bar .btn {
     color: white;
     background-color: #FCA311;
+    margin-left: auto;
+
 }
 
 .protfolio .container .row .article {
