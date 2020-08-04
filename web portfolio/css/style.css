@@ -43,6 +43,12 @@ body .footer {
     background-color: #14213D;
 }
 
+.footer .footer-button {
+    color: white;
+    background-color: #FCA311;
+
+}
+
 .footer .footer-icon {
     width: 12rem;
 }
