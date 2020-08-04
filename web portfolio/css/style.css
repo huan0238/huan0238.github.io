@@ -2,6 +2,10 @@ header .navbar {
     background-color: #14213D;
 }
 
+header .navbar .main-logo {
+    width: 12rem;
+}
+
 .home .section-1 {
     background: url("../images/background.jpg") no-repeat center center;
     background-size: cover;
