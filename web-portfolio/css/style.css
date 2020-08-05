@@ -24,19 +24,18 @@ header .navbar .main-logo {
 
 .home .section-1 .search-bar {
     width: 50%
-
-    
 }
+
 .home .section-1 .search-bar .btn {
     color: white;
     background-color: #FCA311;
     margin-left: auto;
-
 }
 
 .protfolio .container .row .article {
     background-color: #FCA311;
 }
+
 .protfolio .container .row .card .btn {
     background-color: #FCA311;
     color: white;
@@ -58,7 +57,6 @@ body .footer {
 .footer .footer-button {
     color: white;
     background-color: #FCA311;
-
 }
 
 .footer .footer-icon {
