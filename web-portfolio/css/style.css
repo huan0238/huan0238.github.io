@@ -42,9 +42,15 @@ header .navbar .main-logo {
 /* portfolio */
 
 /* add css animtion on portfolio page */
-.portfolio .section-1 .portfolio-img .img-fluid :hover {
+.portfolio .section-1 .portfolio-img :hover {
     animation: pulse; 
     animation-duration: 1s;
+}
+
+.portfolio .section-1 .cards :hover {
+    animation: pulse; 
+    animation-duration: 1s;
+
 }
 .portfolio .container .row .article {
     background-color: #FCA311;
