@@ -6,6 +6,7 @@ header .navbar .main-logo {
     width: 3rem;
 }
 
+/* home */
 .home .section-1 {
     background: url("../Images/background.jpg") no-repeat center center;
     background-size: cover;
@@ -32,15 +33,32 @@ header .navbar .main-logo {
     margin-left: auto;
 }
 
-.protfolio .container .row .article {
+/*add css animtion on section 2*/
+.home .section-2 .row div :hover {
+    animation: pulse; 
+    animation-duration: 1s;
+}
+
+/* portfolio */
+
+/* add css animtion on portfolio page */
+.portfolio .section-1 .portfolio-img .img-fluid :hover {
+    animation: pulse; 
+    animation-duration: 1s;
+}
+.portfolio .container .row .article {
     background-color: #FCA311;
 }
 
-.protfolio .container .row .card .btn {
+.portfolio .container .row .card .btn {
     background-color: #FCA311;
     color: white;
 }
 
+
+
+
+/* contact */
 .contact .contact-form {
     background-color: #14213D;
 }
@@ -50,6 +68,7 @@ header .navbar .main-logo {
     background-color: #FCA311;
 }
 
+/* footer */
 body .footer {
     background-color: #14213D;
 }
