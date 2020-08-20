@@ -1,3 +1,7 @@
+html {
+    overflow: Scroll;
+    overflow-x: hidden;
+}
 header .navbar {
     background-color: #14213D;
 }
